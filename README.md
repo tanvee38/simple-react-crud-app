@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+I followed the youtube video (https://www.youtube.com/watch?v=Vjd7oXmCjmg&t=1796s) from BoostMyTool to create this simple react app. You also need to install json-server to have simple backend web services that the front end react app can use.
+
+To install json-server use the command ```npm install -g json-server```
+To run json server with db.json data run it in a different port in the 2nd terminal with command ```json-server --watch db.json --port 3004```. We use port 3004 because port 3000 is already taken by react app.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
